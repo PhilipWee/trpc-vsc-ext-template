@@ -3,7 +3,7 @@
 A template for making vscode extensions with trpc
 
 ## Demo
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ePMEEPKqwtE?si=6dxTOLWbnsHVEcwK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![](https://markdown-videos-api.jorgenkh.no/youtube/ePMEEPKqwtE)](https://youtu.be/ePMEEPKqwtE)
 
 ## Architecture
 
