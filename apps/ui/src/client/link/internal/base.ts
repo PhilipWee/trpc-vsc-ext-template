@@ -6,8 +6,8 @@ import {
 } from '@trpc/client';
 import type { AnyTRPCRouter } from '@trpc/server';
 import { observable } from '@trpc/server/observable';
-import { MessengerMethods, TRPCVscRequest } from '@taffy/shared-types';
-import { isTRPCResponse } from '@taffy/shared-helpers';
+import { MessengerMethods, TRPCVscRequest } from '@vsc-trpc-template/shared-types';
+import { isTRPCResponse } from '@vsc-trpc-template/shared-helpers';
 
 export const createBaseLink = <TRouter extends AnyTRPCRouter>(
   methods: MessengerMethods

@@ -16,10 +16,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@taffy/components": ["components/src/index.ts"],
-      "@taffy/shared-helpers": ["shared/helpers/src/index.ts"],
-      "@taffy/shared-types": ["shared/types/src/index.ts"],
-      "@taffy/vsc-ext/types": ["apps/vsc-ext/src/types.ts"]
+      "@vsc-trpc-template/components": ["components/src/index.ts"],
+      "@vsc-trpc-template/shared-helpers": ["shared/helpers/src/index.ts"],
+      "@vsc-trpc-template/shared-types": ["shared/types/src/index.ts"],
+      "@vsc-trpc-template/vsc-ext/types": ["apps/vsc-ext/src/types.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

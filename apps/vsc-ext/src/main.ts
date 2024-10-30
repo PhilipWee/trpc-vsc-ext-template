@@ -1,7 +1,7 @@
-import '@taffy/shared-types';
+import '@vsc-trpc-template/shared-types';
 import fuzzysort from 'fuzzysort';
 import * as vscode from 'vscode';
-import html from '../../../dist/apps/taffy/static/index.html?raw';
+import html from '../../../dist/apps/vsc-trpc-template/static/index.html?raw';
 import { createVscExtHandler } from './adapter/createVscExtHandler';
 import { ee } from './event-emitter';
 import { fileRouter } from './routers/files';
@@ -32,7 +32,7 @@ export function activate(context: vscode.ExtensionContext) {
   });
 
   // Register the command
-  const disposable = vscode.commands.registerCommand('taffy.init', () => {
+  const disposable = vscode.commands.registerCommand('vsc-trpc-template.init', () => {
     const bestCol = getBestColForWebView();
 
     if (currentWebview) {
@@ -42,8 +42,8 @@ export function activate(context: vscode.ExtensionContext) {
 
     // Create and show a new webview
     currentWebview = vscode.window.createWebviewPanel(
-      'taffy', // Identifies the type of the webview. Used internally
-      'taffy', // Title of the panel displayed to the user
+      'vsc-trpc-template', // Identifies the type of the webview. Used internally
+      'vsc-trpc-template', // Title of the panel displayed to the user
       bestCol, // Editor column to show the new webview panel in.
       {
         enableScripts: true,

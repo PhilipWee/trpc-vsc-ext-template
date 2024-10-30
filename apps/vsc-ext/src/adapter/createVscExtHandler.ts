@@ -1,4 +1,4 @@
-import { TRPCVscResponse } from '@taffy/shared-types';
+import { TRPCVscResponse } from '@vsc-trpc-template/shared-types';
 import {
   AnyTRPCProcedure,
   AnyTRPCRouter,
@@ -9,7 +9,7 @@ import type { NodeHTTPCreateContextOption } from '@trpc/server/adapters/node-htt
 import type { Unsubscribable } from '@trpc/server/observable';
 import { isObservable } from '@trpc/server/observable';
 import type { HTTPBaseHandlerOptions } from '@trpc/server/http';
-import { isTRPCRequestWithId } from '@taffy/shared-helpers';
+import { isTRPCRequestWithId } from '@vsc-trpc-template/shared-helpers';
 import * as vscode from 'vscode';
 import { getErrorFromUnknown } from './errors';
 

@@ -1,7 +1,8 @@
 import { Toaster } from 'react-hot-toast';
 import { useErrorCatching } from './ErrorBoundary';
 import { KeyboardShortcuts } from './KeyboardShortcuts/KeyboardShortcuts';
-import { TooltipProvider } from '@taffy/components';
+import { TooltipProvider } from '@vsc-trpc-template/components';
+import { Main } from './Main';
 
 export default function App() {
   useErrorCatching();
@@ -9,9 +10,7 @@ export default function App() {
   return (
     <div className="h-full w-full py-3.5">
       <TooltipProvider delayDuration={200}>
-        <div>
-          Hello World!
-        </div>
+        <Main />
       </TooltipProvider>
       <KeyboardShortcuts />
       <Toaster

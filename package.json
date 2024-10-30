@@ -1,5 +1,5 @@
 {
-  "name": "taffy",
+  "name": "vsc-trpc-template",
   "version": "0.0.3",
   "license": "MIT",
   "engines": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kapydev/taffy"
+    "url": "https://github.com/kapydev/vsc-trpc-template"
   },
   "publisher": "firejet",
   "scripts": {
@@ -30,7 +30,7 @@
   "contributes": {
     "keybindings": [
       {
-        "command": "taffy.init",
+        "command": "vsc-trpc-template.init",
         "key": "ctrl+shift+m",
         "when": "editorTextFocus"
       }

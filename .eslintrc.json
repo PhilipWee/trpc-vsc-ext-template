@@ -12,9 +12,9 @@
           {
             "enforceBuildableLibDependency": true,
             "allow": [
-              "@taffy/server/types",
-              "@taffy/vsc-ext/types",
-              "../../../dist/apps/taffy/static/index.html"
+              "@vsc-trpc-template/server/types",
+              "@vsc-trpc-template/vsc-ext/types",
+              "../../../dist/apps/vsc-trpc-template/static/index.html"
             ],
             "depConstraints": [
               {

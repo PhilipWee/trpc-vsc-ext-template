@@ -5,6 +5,9 @@ import { latestActiveEditor } from '../main';
 import { publicProcedure, router } from '../trpc';
 
 export const fileRouter = router({
+  getCurContents: publicProcedure.query(async (opts) => {
+    return latestActiveEditor?.document.getText();
+  }),
   onSelectionChange: publicProcedure.subscription(() => {
     return observable<NonNullable<ReturnType<typeof getSelectionData>>>(
       (emit) => {

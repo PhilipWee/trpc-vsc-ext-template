@@ -18,6 +18,10 @@ The midend is built with `esbuild`
 | Frontend Framework  | React        |
 | Midend Framework    | TRPC         |
 | Keyboard Shortcuts  | Mousetrap.js |
+| Styling             | Tailwind CSS |
+
+### Styling
+The tailwind config is configured such that it matches the color scheme and fonts of the vscode theme the user is using as far as possible, so that there is minimal UI clashing
 
 ### Base Project Setup
 
@@ -37,10 +41,15 @@ Right now, the default function is set to always open the webview panel to the s
 
 ## 🏃 Getting Started
 
+1. Replace all instances of the word `vsc-trpc-template` in the codebase with your new repo name, for example `taffy`
 1. Run `npm i` to install necessary packages
-2. Run `npm run serve` to start the build
-3. Press `f5` to open the development window
-4. Press `Ctrl+Shift+M` in the development window to open the window to see the message passing sample
+1. Run `npm run serve` to start the build (If this doesn't work the first time, stop the process and run it again)
+1. Press `f5` to open the development window
+1. Press `Ctrl+Shift+M` in the development window to open the window to see the message passing sample
+
+## Debugging
+
+If there are issues running the keyboard shortcut `ctrl+shift+m`, search the existing keyboard shortcuts with `f1 >  Preferences: Open Keyboard Shortcuts` and search for `ctrl shift m` and make sure there are no clashing keyboard shortcuts.
 
 ## 📃 License
 

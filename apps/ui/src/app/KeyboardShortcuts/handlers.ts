@@ -13,5 +13,5 @@ export const sampleKeyboardShortcut: ShortcutHandler = {
 };
 
 export const handlers = {
-  'ctrl+l': sampleKeyboardShortcut,
+  'ctrl+shift+l': sampleKeyboardShortcut,
 };

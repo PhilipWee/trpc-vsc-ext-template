@@ -1,4 +1,4 @@
-import { cn } from '@taffy/components';
+import { cn } from '@vsc-trpc-template/components';
 import { ReactNode, useEffect, useState } from 'react';
 import Mousetrap from 'mousetrap';
 

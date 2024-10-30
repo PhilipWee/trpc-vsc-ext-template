@@ -151,7 +151,7 @@ const finalConfig = defineConfig(({ command }) => {
     //  plugins: [ nxViteTsPaths() ],
     // },
     build: {
-      outDir: '../../dist/apps/taffy/static',
+      outDir: '../../dist/apps/vsc-trpc-template/static',
       minify: false,
       reportCompressedSize: true,
       rollupOptions: {

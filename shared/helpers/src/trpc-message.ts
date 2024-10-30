@@ -2,7 +2,7 @@ import {
   TRPCVscMessage,
   TRPCVscResponse,
   TRPCVscRequest,
-} from '@taffy/shared-types';
+} from '@vsc-trpc-template/shared-types';
 
 type WithTRPCId<T> = T & { trpc: { id: string } };
 
