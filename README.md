@@ -30,13 +30,16 @@ The tailwind config is configured such that it matches the color scheme and font
 
 ## Project Structure
 
-apps
-|\_**\_ ui (webview ui that opens when the shortcut is pressed)
-|\_\_** vsc-ext (template window)
-components (for storing shadcn primitives)
-shared
-|\_**\_ helpers (Helper functions)
-|\_\_** types (global types)
+```
+root
+├── apps
+│   ├── ui          # Webview UI that opens when the shortcut is pressed
+│   └── vsc-ext     # Template window
+├── components      # Stores shadcn primitives
+├── shared
+│   ├── helpers     # Helper functions
+│   └── types       # Global types
+```
 
 ### Window opening example
 
